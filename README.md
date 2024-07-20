@@ -33,3 +33,24 @@ One key feature of A* is its optimality and completeness under certain condition
 #### Graphical User Interface (GUI)
 - **main:** Creates an interactive GUI using IPywidgets for users to input grid dimensions, add obstacles, set start and goal positions, and visualize the pathfinding process. When the visualize button is clicked, the grid, obstacles, start, goal, and optimal path are displayed using Matplotlib.
 
+## Getting Started
+
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/varun-g11/astar-optimal-path.git
+   cd astar-optimal-path
+
+## Installation
+
+1. **Ensure Python is installed** on your system. You can download it from [python.org](https://www.python.org/downloads/).
+
+2. **Install the necessary dependencies** by running the following command in your terminal:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Running Examples
+
+To see the A* algorithm in action, execute the script with:
+```sh
+python astar-optimal-path.py
