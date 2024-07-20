@@ -33,24 +33,34 @@ One key feature of A* is its optimality and completeness under certain condition
 #### Graphical User Interface (GUI)
 - **main:** Creates an interactive GUI using IPywidgets for users to input grid dimensions, add obstacles, set start and goal positions, and visualize the pathfinding process. When the visualize button is clicked, the grid, obstacles, start, goal, and optimal path are displayed using Matplotlib.
 
-## Getting Started
 
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/varun-g11/astar-optimal-path.git
-   cd astar-optimal-path
+## Running the Code on Google Colab
 
-## Installation
+To run the Python script (`.py` file) on Google Colab, follow these steps:
 
-1. **Ensure Python is installed** on your system. You can download it from [python.org](https://www.python.org/downloads/).
+1. **Open Google Colab:**
+   - Go to [Google Colab](https://colab.research.google.com/).
 
-2. **Install the necessary dependencies** by running the following command in your terminal:
-    ```sh
-    pip install -r requirements.txt
-    ```
+2. **Create a New Notebook:**
+   - Click on `File` in the menu.
+   - Select `New notebook` to create a new Colab notebook.
 
-## Running Examples
+3. **Upload the Python Script:**
+   - In the Colab notebook, click on the `Files` icon on the left sidebar (a folder icon).
+   - Click on `Upload` and select the `.py` file from your local machine.
 
-To see the A* algorithm in action, execute the script with:
-```sh
-python astar-optimal-path.py
+4. **Run the Python Script:**
+   - You can run the Python script by executing the following command in a code cell:
+
+     ```python
+     !python <script_name>.py
+     ```
+
+     Replace `<script_name>.py` with the name of your uploaded Python script.
+
+5. **Save Your Work:**
+   - After running your script, you can save your notebook by clicking on `File` and then `Save a copy in Drive` to save it to your Google Drive.
+
+If you have any questions or encounter issues, please refer to the [Google Colab documentation](https://colab.research.google.com/notebooks/welcome.ipynb) or open an issue in this repository.
+
+Happy coding!
