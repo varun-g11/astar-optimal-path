@@ -101,7 +101,7 @@ def main():
     goal_x = widgets.IntSlider(description="Goal X:", min=0, max=width.value-1, value=width.value-1, style=style)
     goal_y = widgets.IntSlider(description="Goal Y:", min=0, max=height.value-1, value=height.value-1, style=style)
     visualize_button = widgets.Button(description="Visualize", style=style)
-    
+
     obstacles = []
 
     def add_obstacle(b):
@@ -109,7 +109,10 @@ def main():
         y = obstacle_y.value
         if (x, y) not in obstacles:
             obstacles.append((x, y))
-            grid.set_obstacle(x, y)
+            try:
+              grid.set_obstacle(x, y)
+            except Exception as e:
+              print()
 
     def on_visualize_button_clicked(b):
         grid = Grid(width.value, height.value)
